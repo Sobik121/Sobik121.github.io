@@ -1,0 +1,28 @@
+.tns-outer {
+    position: relative;
+}
+.tns-controls {
+    [data-controls="next"], [data-controls="prev"]  {
+        position: absolute;
+        top:50%;
+        border: 0;
+        background-color: #fff;
+        width: 31px;
+        height: 50px;
+        left: -35px;
+    }
+    [data-controls="next"] {
+        left: auto;
+        right: -23px;
+    }
+}
+.tns-inner {
+    #tns1-item2 {
+        margin-top: 50px;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
